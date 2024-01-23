@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" link href="style.css">
+</head>
+<body>
+    <header>
+        <h2>Aplikasi Perpustakan Digital</h2>
+        <nav>
+            <a href="https://disarpus.banjarnegarakab.go.id/tata-tertib-peminjaman-buku-bahan-pustaka/">Peminjaman</a>
+            <a href="https://perpustakaannadiaputridewi.weebly.com/sejarah-perpustakaan-digital.html">History</a>
+            <a href="#">Logout</a>
+        </nav>
+    </header>
+    
+  <img id="img" img src="mts.png">
+    <div class="container">
+        <h3>Login ke akun anda</h>
+        <hr>
+    <from action="login_proces.php" method="post">
+        <label for="username">username</label>
+        <input type="text" id="username" name="username" placeholder="Masukkan Nama"><br>
+
+        <label for="password">password</label>
+        <input type="password" id="password" name="password" placeholder="password" required><br>
+
+        <button type="submit">Login</button>
+    </from>
+    </div>
+    
+    <footer>
+       <a href="https://www.instagram.com/smkmtsbatam/">Masukkan</a>
+    </footer>
+</body>
+</html>
